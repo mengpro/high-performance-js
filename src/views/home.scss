@@ -1,0 +1,17 @@
+.home {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+
+    .home-menu {
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+
+    img {
+        cursor: pointer;
+    }
+}

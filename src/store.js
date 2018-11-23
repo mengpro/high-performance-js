@@ -4,13 +4,17 @@ import Vuex from 'vuex';
 Vue.use(Vuex);
 
 export default new Vuex.Store({
-  state: {
+    state: {
+        catalogue: {
+            'Loading and Execution': [
+                'Deferred Scripts',
+            ],
+        },
+    },
+    mutations: {
 
-  },
-  mutations: {
+    },
+    actions: {
 
-  },
-  actions: {
-
-  },
+    },
 });
